@@ -13,17 +13,13 @@ const Home = props => {
               <img src={ajmal} className="avatar" alt="Ajmal Jalal" />
             </div>
             <div className="introduction">
-              <h1 className="display-3">Welcome!</h1>
+              <h1 className="display-3">Hi</h1>
               <br />
               <p className="lead">
-                My name is Ajmal Jalal, I am here to form a partnership with you
-                in giving beautiful shapes to those great ideas you have.
+                After 3 years of working in the legal field I realized I wanted to solve problems in the community by writing programs. After a 6+ month program that covered CS fundamentals and Web Development I learned Node, Express, React, Redux, MongoDB, CSS3, and HTML5. I am passionate about learning new technologies and exploring new ways to find solutions for emerging problems.
               </p>
             </div>
             <div className="social-icons">
-              <a href="https://www.facebook.com/ajmal.jalal2" target="blank">
-                <i class="fa fa-facebook-f" style={{ fontSize: 24 + 'px' }} />
-              </a>
               <a href="https://www.linkedin.com/in/ajmaljalal/" target='blank'>
                 <i class="fa fa-linkedin" style={{ fontSize: 24 + 'px' }} />
               </a>

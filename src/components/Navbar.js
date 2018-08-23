@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="navbar-container mt-4">
+    <div className="navbar-container mt-1">
       <div className="navbar">
         <a href="#skills" className="link">Skills</a> 
         <a href="#projects" className="link">Projects</a>

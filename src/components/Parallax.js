@@ -43,8 +43,7 @@ const ParallaxContainer = () => (
 
                     <span className = 'col col-3 m-3 mb-5 p-3'><img src = {require('../icons/express.png')} alt = 'expres' width='100px'/></span>
 
-                </div>
-                
+                </div>    
             </div>
         </Parallax>
 

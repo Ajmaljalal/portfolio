@@ -1,0 +1,163 @@
+body{
+  background-color: whitesmoke;
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  background-position: center;
+  padding: 0;
+}
+
+.costum-jumbotron {
+  max-width: 100%;
+  background-color: /*rgba(16,126,125, 0.9);*/ whitesmoke;
+  margin-bottom: 0;
+}
+
+.avatar {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0.1%;
+}
+
+.avatar-container {
+  opacity: 2;
+}
+
+.introduction {
+  font-family: 'Jura', sans-serif;
+  color: #35281d;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.display-3 {
+  margin-top: 1rem;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.lead {
+  width: 50%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1rem;
+}
+
+.fa {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #610345;
+}
+
+
+
+.link {
+  margin: .5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: 'Jura', sans-serif;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+#skills , h2 {
+  font-family: 'Jura', sans-serif;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #610345;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  opacity: 0.95;
+}
+
+.navbar-container{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  background-color: whitesmoke;
+  opacity: 0.95;
+}
+
+.navbar-container a{
+  padding: 3px 15px;
+  background-color: #610345;
+  border: 2px solid #610345;
+  color:white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.navbar-container a:hover{
+  border: 2px solid #610345;
+  background-color: white;
+  color: #610345; 
+}
+
+
+/************** Projects Section Styling ***********************/
+
+#projects{
+  margin-top: 50px;
+}
+
+
+.cardBtn {
+  border: #610345 solid 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.cardBtn:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #610345;
+  
+}
+
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.shadow:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
-import ajmal from '../images/ajmal.jpg';
+import ajmal from '../images/ajmal1.jpg';
 import Navbar from './Navbar';
 
 const Home = props => {
@@ -16,7 +16,7 @@ const Home = props => {
               <h1 className="display-3">Hi</h1>
               <br />
               <p className="lead">
-                After 3 years of working in the legal field I realized I wanted to solve problems in the community by writing programs. After a 6+ month program that covered CS fundamentals and Web Development I learned Node, Express, React, Redux, MongoDB, CSS3, and HTML5. I am passionate about learning new technologies and exploring new ways to find solutions for emerging problems.
+                After 3 years of working in the legal field I realized I wanted to solve problems in the community by writing programs. To start, I  equipped my self with Node, Express, React, Redux, MongoDB, CSS3, and HTML5. I am passionate about learning new technologies and exploring new ways to find solutions for emerging problems.
               </p>
             </div>
             <div className="social-icons">

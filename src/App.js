@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Switch } from 'react-router';
-import './App.css';
-import ParallaxContainer from './components/Parallax';
+import {Element} from 'react-scroll';
 
+import './resources/styles.css';
+import Header from './components/header_footer/Header';
+import Featured from './components/featured';
+import EventInfo from './components/venueInfo';
+import Highlights from './components/highlights';
+import Pricing from './components/pricing';
+import Location from './components/location';
+import Footer from './components/header_footer/Footer';
 
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="app">
-            <ParallaxContainer/>
-        </div>
-      </Router>
+      <div className="App" style={{height: '1500px'}}>
+        <Element>
+          <Header/>
+        </Element>
+        <Element name='eventStartsIn'><Featured/></Element>
+        <Element name='eventInfo'><EventInfo/></Element>
+        <Element name='highlights'><Highlights/></Element>
+        <Element name='pricing'><Pricing/></Element>
+        <Element name='location'><Location/></Element>
+        <Footer />
+      </div>
     );
   }
 }
